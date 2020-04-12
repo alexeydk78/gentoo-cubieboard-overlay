@@ -16,7 +16,6 @@ IUSE=""
 
 DEPEND="x11-base/xorg-server
 	x11-libs/libXext
-	x11-proto/xextproto
 	x11-libs/libdrm"
 
 DOCS=( COPYING README )

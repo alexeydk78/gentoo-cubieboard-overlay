@@ -28,7 +28,7 @@ src_prepare() {
 src_configure() {
 	# emerge sets ABI to arm, but Makefile.conf expects armhf or armle, or none,
 	# and it breaks ABI autodetection making the build fail.
-	ABI= emake config
+	ABI=armhf emake config
 
 	MALI_LIBS_ABI=`grep LIBS_ABI config.mk | awk '{ print $3 }'`
 	MALI_VERSION=` grep VERSION  config.mk | awk '{ print $3 }'`

@@ -14,12 +14,7 @@ RDEPEND="x11-base/xorg-server"
 DEPEND="${RDEPEND}
 	gles1? ( x11-libs/sunxi-mali )
 	gles2? ( x11-libs/sunxi-mali )
-	x11-proto/fontsproto
-	x11-proto/randrproto
-	x11-proto/renderproto
-	x11-proto/videoproto
-	x11-proto/xf86driproto
-	x11-proto/xproto
+	x11-base/xorg-proto
 	x11-libs/libdrm
 	x11-libs/pixman"
 
