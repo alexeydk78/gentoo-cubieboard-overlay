@@ -22,6 +22,6 @@ src_compile() {
 }
 
 src_install() {
-	dobin fexc bin2fex fex2bin bootinfo fel pio nand-part
-	dodoc COPYING README
+	dobin sunxi-fexc bin2fex fex2bin sunxi-bootinfo sunxi-fel sunxi-pio sunxi-nand-part
+	dodoc README.md LICENSE.md
 }

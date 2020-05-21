@@ -13,7 +13,6 @@ IUSE=""
 
 DEPEND="
 	>=app-eselect/eselect-opengl-1.2.6
-	x11-libs/sunxi-libump
 	x11-libs/libdri2"
 RDEPEND="${DEPEND}
 	media-libs/mesa[gles1,gles2]"
